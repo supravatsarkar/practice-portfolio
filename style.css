@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+.name-color{
+    color: orange;
+}
+h1{
+    font-size: 51px;
+}
+
+.intro-section{
+    display: flex;
+}
+.half-div{
+    width: 48%;
+    margin-left: 1%;
+    padding-left: 50px;
+}
+.half-div img{
+    /* border:2px solid black; */
+    width: 90%;
+}
+.link-btn{
+    padding: 15px 25px;
+    background-image:linear-gradient( orange, salmon);
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
