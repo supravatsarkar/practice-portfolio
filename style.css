@@ -8,14 +8,26 @@ body{
 h1{
     font-size: 51px;
 }
+h2{
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+}
 
-.intro-section{
+.flexible-container{
     display: flex;
+}
+.intro-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%; 
 }
 .half-div{
     width: 48%;
     margin-left: 1%;
     padding-left: 50px;
+    margin-bottom: 150px;
 }
 .half-div img{
     /* border:2px solid black; */
@@ -27,4 +39,45 @@ h1{
     text-decoration: none;
     font-weight: 700;
     color: white;
+    border-radius: 7px;
+}
+.dream-section{
+    flex-direction: row-reverse;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 25%; 
+}
+#padding-right{
+    padding-right: 100px;
+}
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 40%; 
+}
+.experience-item{
+    width: 35%;
+    box-shadow: 5px 12px 15px 20px salmon;
+    margin-left: 6%;
+    
+    
+}
+.experience-item p{
+    padding-right:10px;
+}
+#fulStack{
+    border-left: 10px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 55;
+}
+#webDev{
+    border-left: 10px solid;
+    border-image: linear-gradient( yellow, rgb(108, 226, 10));
+    border-image-slice: 55;
+}
+footer p{
+    text-align: center;
+    background-color: salmon;
+    color: white;
+    margin: 0;
 }
